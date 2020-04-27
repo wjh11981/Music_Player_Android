@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //点击前的状态（activated默认为false），是(play按钮)代表目前处于暂停状态，利用state_activated来实现
+    <item android:state_activated="false"  android:drawable="@android:drawable/ic_media_play" />
+    //点击后显示(pause按钮)代表目前处于播放状态
+    <item android:state_activated="true" android:drawable="@android:drawable/ic_media_pause" />
+
+    //true代表正在播放，false代表正处于暂停状态
+
+</selector>
